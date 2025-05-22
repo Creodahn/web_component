@@ -1,9 +1,9 @@
-import ExtendedHTMLElement from '../../extended-html-element';
+import ExtendedHTMLElement from '../../../extended-html-element';
 
 class ListAddButton extends ExtendedHTMLElement {
   #button;
-  stylesPath = '/components/list/add-button/styles.css';
-  templatePath = '/components/list/add-button/template.html';
+  stylesPath = '/components/list/button/add/styles.css';
+  templatePath = '/components/list/button/add/template.html';
 
   disconnectedCallback() {
     this.#tearDownButton();

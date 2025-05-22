@@ -1,3 +1,8 @@
+div {
+  display: flex;
+  width: fit-content;
+}
+
 h2 {
   color: purple;
 }
